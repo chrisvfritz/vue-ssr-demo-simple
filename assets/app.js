@@ -24,7 +24,7 @@
     // END NORMAL APP CODE
     // ---------------------
   }
-  if (typeof module !== 'undefined' && module.exports ) {
+  if (typeof module !== 'undefined' && module.exports) {
     module.exports = createApp
   } else {
     this.app = createApp()
