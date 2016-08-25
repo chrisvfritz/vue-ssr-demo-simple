@@ -4,7 +4,7 @@
   "scripts": {
     "cp:dev": "cp node_modules/vue/dist/vue.js assets/vue.js",
     "cp:prod": "cp node_modules/vue/dist/vue.min.js assets/vue.js",
-    "serve": "VUE_ENV=server node server.js",
+    "serve": "VUE_ENV=server nodemon --watch . --ext js,html server.js",
     "dev": "npm-run-all cp:dev serve",
     "prod": "npm-run-all cp:prod serve"
   },
@@ -16,6 +16,7 @@
     "vue-server-renderer": "^2.0.0-rc.3"
   },
   "devDependencies": {
+    "nodemon": "^1.10.2",
     "npm-run-all": "^3.0.0"
   }
 }
