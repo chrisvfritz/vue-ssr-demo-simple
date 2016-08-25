@@ -1,7 +1,7 @@
 (function () { 'use strict'
   var createApp = function () {
     // ---------------------
-    // START NORMAL APP CODE
+    // BEGIN NORMAL APP CODE
     // ---------------------
 
     // Main Vue instance must be returned and have a root
