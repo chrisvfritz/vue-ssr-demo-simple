@@ -20,9 +20,9 @@
       }
     })
 
-    // ---------------------
+    // -------------------
     // END NORMAL APP CODE
-    // ---------------------
+    // -------------------
   }
   if (typeof module !== 'undefined' && module.exports) {
     module.exports = createApp
