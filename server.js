@@ -7,7 +7,7 @@ var path = require('path')
 global.Vue = require('vue')
 
 // Get the HTML layout
-var layout = fs.readFileSync('./layout.html', 'utf8')
+var layout = fs.readFileSync('./index.html', 'utf8')
 
 // Create a renderer
 var renderer = require('vue-server-renderer').createRenderer()
